@@ -1,0 +1,651 @@
+@import url("./components/style/colors.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Nunito:wght@600;700;800&family=Rubik:wght@300;400;500;600&display=swap');
+.bg-c-dark{
+  background-color: white;
+}
+.navbar{
+ 
+  font-family: 'Rubik', sans-serif;
+  
+}
+.navbar a{
+color: var(--headingcolor) !important;
+font-family: 'Rubik', sans-serif;
+font-weight: 300;
+line-height: 19px;
+
+font-size: 16px;
+
+
+}
+.navbar a:hover{
+  color:var(--hovercolor) !important
+
+  
+  }
+  .navbar button{
+
+    background: linear-gradient(to left ,#f0a056,#ec5c6b);
+  color: white;
+    border:none;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+font-weight: medium;
+
+  }
+  .navbar button:hover{
+
+    background: white;
+
+ color:var(--hovercolor)
+
+  }
+
+  /* header */
+.headerleft img
+{
+ 
+  height: 100%;
+  
+}
+
+
+
+.headerright h2{
+
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  
+  background:linear-gradient(to left,#f0a056 40%,#ec5c6b 60%) ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.headerright p{
+
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  text-align: left;
+  margin-top: 20px;
+}
+.headerright span{
+  color: var(--hovercolor);
+  font-size: 16px;
+ 
+
+  font-weight: bold;
+}
+
+.btnsection .btnrequest{
+  background-color: #081d51;
+  font-family: 'Rubik', sans-serif;
+  font-weight: medium;
+  color: white;
+  margin-top: 20px;
+  padding:10px;
+  border-radius: 10px;
+  border: none;
+}
+.btnsection .btn-livechat{
+  background: linear-gradient(to left,#f0a056,#ec5c6b);
+
+  font-family: 'Rubik', sans-serif;
+  font-weight: medium;
+  color: white;
+  margin-top: 20px;
+  padding:10px;
+  border-radius: 10px;
+  border: none;
+
+}
+.header-icons .col{
+  margin-top: 40px;
+}
+/* 
+socilamedialmarketing */
+.socialmedialeft{
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.socialmedialeft h3{
+ color: var( --headingcolor);
+  text-align: left;
+  font-family: 'Nunito', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+
+}
+
+.socialmedialeft p{
+  color: var( --headingcolor);
+   text-align: left;
+   font-family: 'Rubik', sans-serif;
+   font-size: 16px;
+   margin-top: 20px;
+ }
+
+
+.socialmediaright .card{
+ border-radius: 30px;
+ 
+}
+.socialmediarightcard:hover{
+  background-color: var(--hovercolor);
+  border:none;
+  color: white !important;
+ }
+
+ .socialmediarightcard h4:hover{
+ 
+  color: white ;
+ }
+ .socialmediarightcard p:hover{
+ 
+  color: white ;
+ }
+
+
+ .socialmediarightcard h4{
+
+
+  font-family: 'Rubik', sans-serif;
+  font-weight: Semi-bold 600;
+  color: var(--headingcolor);
+  font-size: 18px;
+  
+ }
+ .socialmediarightcard p{
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+ margin-top: 20px;
+color: var(--headingcolor);
+  
+ }
+ /* workingwith */
+ .workingwith{
+  
+  margin-top: 40px;
+ 
+}
+.workingwith{
+  
+  margin-top: 40px;
+ 
+}
+.workingwithtext h2 {
+  color: var(--headingcolor);
+  font-family: 'Nunito', sans-serif;
+  font-weight: Extra-bold 800;
+  font-size: 36px;
+
+
+}
+
+
+/* SeoStrategy */
+.SeoStrategy{
+
+  margin-top: 70px;
+}
+.SeoStrategyright{
+  
+}
+.SeoStrategyright h4{
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: Semi-bold 600;
+  color: var(--headingcolor);
+  text-transform: uppercase;
+ 
+}
+
+.SeoStrategyright h2{
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 36px;
+  font-weight:bold 800;
+  color: var(--headingcolor);
+  
+ 
+}
+
+.SeoStrategyright p{
+
+margin-top: 40px;
+
+font-family: 'Rubik', sans-serif;
+font-size: 16px;
+  font-weight: regular;
+  color: var(--headingcolor);
+ 
+}
+
+
+
+.marketingblink{
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  color: var( --cardhover);
+  font-weight: bold 600;
+  
+}
+
+.SeoStrategytabs button{
+background: transparent !important;
+  
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+ 
+  color: var(--headingcolor) !important;
+  
+}
+
+
+.SeoStrategytabs button:hover{
+
+  color: var(--hovercolor) !important;
+  
+}
+.tabcontentcard   {
+  background: linear-gradient(to left ,#f0a056,#ec5c6b);
+  /* width: 80%; */
+  padding:40px !important;
+  
+  border-radius: 40px;
+}
+.tabcard{
+  background: linear-gradient(to left ,#f0a056,#ec5c6b);
+  width: 350px;
+  padding:40px !important;
+  
+  border-radius: 40px;
+}
+
+.tabcard p{
+ margin-top: -1px;
+ color: white;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+ 
+}
+.tabcard img{
+  margin-top: -10px;
+  
+  
+  
+ }
+ 
+.SeoStrategyright .SeoStrategybtn{
+border: 2px solid var(--headingcolor);
+  color: var(--headingcolor);
+  font-size: 14px ;
+  font-family: 'Rubik', sans-serif ;
+  font-weight: bold;
+  padding:10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin-top: 20px !important;
+ 
+
+}
+.tabcontentcard p{
+  color: white;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+/* DMServices  */
+.DMServices {
+
+  margin-top: 20px !important;
+}
+.DMServicesheading h2{
+ 
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+
+  
+ background:linear-gradient(to left,#f0a056 40%,#ec5c6b 60%) ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.DMServicesheading h3{
+ 
+ 
+  margin-top: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--headingcolor);
+
+}
+.DMServicesheading p{
+ 
+ 
+  margin-top: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+text-align: center;
+  color: var(--headingcolor);
+
+}
+.DMServicesContent{
+
+  margin-top: 20px !important;
+}
+
+.DMServicesContentcol  img{
+ 
+  text-align: right;
+  margin-left: 30px;
+
+}
+.DMServicesContentcol h3{
+  
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--headingcolor);
+ 
+
+}
+.DMServicesContentcol p{
+
+  font-family: 'Rubik', sans-serif;
+
+  font-size: 16px;
+  color: var(--headingcolor);
+ 
+
+}
+
+.DMSbtnsection button{
+
+width: 200px;
+  margin-top: 40px;
+
+}
+
+.DMSbtnsection .btn-blinked{
+
+background-color: var(--headingcolor);
+font-family: 'Rubik', sans-serif;
+font-weight: 500;
+padding:10px;
+color: white;
+border:none;
+border-radius: 10px;
+
+}
+
+.DMSbtnsection .btnplans{
+
+  background-color: white;
+
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  padding:10px;
+  color: var(--headingcolor);
+  border:2px solid var(--headingcolor) ;
+  border-radius: 10px;
+  }
+
+  /* Affordable */
+  .Affordableheading{
+   
+    margin-top: 50px !important;
+  }
+
+  .Affordableheading h3{
+   
+    font-family: 'Rubik', sans-serif;
+    color: var(--headingcolor);
+    font-weight: 800;
+    font-size: 36px;
+  }
+  .Affordableheading p{
+   
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+.Affordabletabs li .active:hover{
+
+  background: linear-gradient(to left,#f0a056,#ec5c6b) !important;
+  color: white !important;
+  border:none;
+  
+}
+.Affordabletabs li button{
+
+color: var(--headingcolor) !important;
+font-family: 'Rubik', sans-serif;
+font-weight: 500;
+text-transform: uppercase;
+
+}
+
+.Affordabletabs li .active {
+
+ background-color: white !important;
+ color: var(--headingcolor) !important;
+ border: 2px solid var(--headingcolor);
+border-radius: 10px;
+font-family: 'Rubik', sans-serif;
+font-weight: 500;
+font-size: 14px;
+}
+
+/* affordable superblink */
+
+.svgicon{
+ 
+  background-image: url("./components/images/svgiconmain.jpg") !important;
+ 
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  object-fit: cover;
+  width: 200px;
+  height: 300px;
+}
+.svgicon p{
+
+  margin-left: 20px;
+  color: white;
+
+}
+
+.svgicon .line{
+  
+  text-decoration:   line-through;
+}
+svg{
+ 
+  width: 180px;
+  margin-left: 80px;
+}
+
+.SuperBlinkrow p {
+
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  color: var(  --hovercolor);
+  line-height: 20px;
+  
+}
+.SuperBlinkrow ul {
+  list-style: none;
+} 
+.SuperBlinkrow ul li {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  line-height: 16px;
+
+  
+ color: var( --headingcolor);
+} 
+
+ 
+.SuperBlinkrow ul li::before {
+  content: "\2022";
+  color: var(--hovercolor);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+.SuperblinkBtn .SuperblinkBtn1{
+ border: 2px solid var(--headingcolor);
+ background-color: white;
+ color: var(--headingcolor);
+ width: 231.81px;
+ border-radius: 10px;
+ font-family: 'Rubik', sans-serif;
+ font-weight: 500;
+ font-size: 14px;
+ height: 50px;
+ 
+}
+.SuperblinkBtn .SuperblinkBtn2{
+ 
+  
+  width: 231.81px;
+  border-radius: 10px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  background: linear-gradient(to left ,#f0a056,#ec5c6b);
+  color: white;
+border:none;
+height: 50px;
+
+  
+ }
+ .SuperblinkBtn .SuperblinkBtn3{
+  width: 231.81px;
+  border-radius: 10px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  background: linear-gradient(to left ,#f0a056,#ec5c6b);
+  color: white;
+border:none;
+height: 50px;
+  
+ }
+/* whychoose */
+
+.whychoose {
+
+  margin-top: 50px !important;
+}
+.whychooseleft  {
+ 
+  padding:10px;
+
+}
+
+.whychooseleft h3 {
+ 
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+color: var(--headingcolor);
+font-size: 36px;
+
+
+}
+.whychooseleft p {
+ 
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+color: var(--headingcolor);
+font-size: 16px;
+text-align: left ;
+
+
+}
+.whychooseleft p span{
+ 
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+color: var(--headingcolor);
+font-size: 16px;
+color: #e25f46;
+
+
+}
+
+/* footer */
+.Footer{
+
+  margin-top: 50px;
+  padding:10px;
+}
+
+
+.Footermiddle ul{
+  
+ list-style: none;
+}
+
+.Footermiddle ul li{
+ font-size: 14px;
+ font-family: 'Nunito', sans-serif;
+ font-weight: 600;
+ word-spacing: 20px;
+ line-height: 24px;
+}
+
+.footerlinks{
+
+  margin-top: 60px !important;
+}
+.footerlinks p{
+
+  font-size: 12px; 
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 16px;
+  text-align: left;
+  color: var(--headingcolor);
+}
+
+.footerlinks a{
+
+font-size: 14px;
+font-family: 'Rubik', sans-serif;
+color: var(--headingcolor);
+font-weight: 300;
+text-decoration: none;
+}
+.footerbtn button{
+  background: linear-gradient(to left ,#f0a056,#ec5c6b);
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight:700 ;
+}
+.footerend{
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--headingcolor);
+}
+/* .Footermiddle p {
+  
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  color: var(--headingcolor);
+  
+} */
